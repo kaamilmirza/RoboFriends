@@ -3,7 +3,7 @@ import './Hello.css'
 class Hello extends Component{
     render(){
         return (
-        <div class = "f1 tc"  >
+        <div class   = 'f1 tc'  >
             <h1>
                 Hey
             </h1>
