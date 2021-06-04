@@ -2,10 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
-import {robots} from './robot';
-import CardList from './Cardlist'
+import App from './App';
 ReactDOM.render(
-  <CardList robots = {robots}/>,
+  <App/>,
   document.getElementById('root')
 );
 
