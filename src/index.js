@@ -1,10 +1,11 @@
-import React from 'react';
+import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
 import App from './App';
+import './index.css'
 ReactDOM.render(
-  <App/>,
+  <App/>,          
   document.getElementById('root')
 );
 
