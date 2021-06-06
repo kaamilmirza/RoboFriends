@@ -13,6 +13,15 @@ class App extends Component{
         }
     }
 
+    componenetDidMount(){
+        fetch("https://jsonplacholder.typicode.com/users").then(response=>
+        {
+            return response.json();
+        }).then(users=> {
+            this.setState({robots:users})
+        })
+    }
+
     onSearchChange = (event) => {
         this.setState({searchfield : event.target.value})
     }
